@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+
+        <Placemark>
+            <name>Location A</name>
+            <Point>
+                <coordinates>80.27,13.08,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>Road A</name>
+            <LineString>
+                <coordinates>
+                    80.27,13.08,0
+                    80.28,13.08,0
+                    80.29,13.09,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+
+        <Placemark>
+            <name>Lake A</name>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+                            80.27,13.08,0
+                            80.28,13.08,0
+                            80.28,13.09,0
+                            80.27,13.09,0
+                            80.27,13.08,0
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+
+    </Document>
+</kml>
